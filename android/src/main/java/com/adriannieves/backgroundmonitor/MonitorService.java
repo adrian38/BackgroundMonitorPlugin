@@ -26,7 +26,7 @@ public class MonitorService extends Service {
 
     private Handler handler;
     private Runnable runnable;
-    private static final int INTERVALO = 60 * 1000; // 1 minuto
+    private static final int INTERVALO = 15 * 60 * 1000; // 1 minuto
 
     private final String CHANNEL_ID_MONITOR = "MonitorServiceChannel";
     private final String CHANNEL_ID_ALARMA = "alarma_dispositivo";
